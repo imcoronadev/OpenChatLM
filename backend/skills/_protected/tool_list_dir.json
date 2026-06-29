@@ -1,0 +1,14 @@
+{
+  "id": "tool_list_dir",
+  "name": "ListDir",
+  "description": "List files and directories at a path inside the workspace.",
+  "protected": true,
+  "builtin": true,
+  "is_meta": false,
+  "is_tool": true,
+  "tool_name": "ListDir",
+  "permission": "auto",
+  "system_prompt_addition": "",
+  "trigger_keywords": [],
+  "parameters": {}
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tool_edit_file",
+  "name": "EditFile",
+  "description": "Replace a string in a file with a new string. Requires approval.",
+  "protected": true,
+  "builtin": true,
+  "is_meta": false,
+  "is_tool": true,
+  "tool_name": "EditFile",
+  "permission": "approve",
+  "system_prompt_addition": "",
+  "trigger_keywords": [],
+  "parameters": {}
+}

@@ -1,0 +1,12 @@
+{
+  "id": "_meta_think",
+  "name": "MetaThink",
+  "description": "Forces small models to emit a <thought> block before any response. Renders collapsed in UI.",
+  "protected": true,
+  "builtin": true,
+  "is_meta": true,
+  "is_tool": false,
+  "system_prompt_addition": "IMPORTANT: You must always begin your response with a <thought>...</thought> block. Inside <thought>, reason step-by-step about the user's request, the tools you might need, and your plan. After </thought>, give the final answer or call tools. Example:\n<thought>The user wants X. I need to think about Y and then use Tool Z.</thought>\nFinal answer or tool call here.",
+  "trigger_keywords": [],
+  "parameters": {}
+}

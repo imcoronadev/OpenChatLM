@@ -1,0 +1,12 @@
+{
+  "id": "_meta_tools",
+  "name": "MetaTools",
+  "description": "Defines the CALL_TOOL syntax, approval rules, and workspace constraints.",
+  "protected": true,
+  "builtin": true,
+  "is_meta": true,
+  "is_tool": false,
+  "system_prompt_addition": "## Tools\nYou have access to tools. To invoke one, emit exactly one line in this format:\n\nCALL_TOOL:ToolName {\"arg1\": \"value\", \"arg2\": 123}\n\nAfter a tool runs, you will receive a ToolResult block. You may then continue reasoning or call another tool. End your turn with a normal answer when done.\n\nRules:\n- Emit ONE tool call per turn, on its own line.\n- JSON arguments must be valid JSON.\n- Tool paths must stay inside the current workspace.\n- Destructive actions (write/edit/command) require explicit user approval in the UI; the user may also enable a time-limited bypass.\n- Available tools are listed below. Use only these names.",
+  "trigger_keywords": [],
+  "parameters": {}
+}

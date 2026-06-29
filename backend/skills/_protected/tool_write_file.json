@@ -1,0 +1,14 @@
+{
+  "id": "tool_write_file",
+  "name": "WriteFile",
+  "description": "Create or overwrite a file with the given content. Requires approval.",
+  "protected": true,
+  "builtin": true,
+  "is_meta": false,
+  "is_tool": true,
+  "tool_name": "WriteFile",
+  "permission": "approve",
+  "system_prompt_addition": "",
+  "trigger_keywords": [],
+  "parameters": {}
+}

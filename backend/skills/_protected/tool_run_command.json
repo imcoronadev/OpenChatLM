@@ -1,0 +1,14 @@
+{
+  "id": "tool_run_command",
+  "name": "RunCommand",
+  "description": "Run a shell command inside the workspace (no sandbox). Requires approval.",
+  "protected": true,
+  "builtin": true,
+  "is_meta": false,
+  "is_tool": true,
+  "tool_name": "RunCommand",
+  "permission": "approve",
+  "system_prompt_addition": "",
+  "trigger_keywords": [],
+  "parameters": {"timeout": 30}
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tool_read_file",
+  "name": "ReadFile",
+  "description": "Read the contents of a file inside the workspace.",
+  "protected": true,
+  "builtin": true,
+  "is_meta": false,
+  "is_tool": true,
+  "tool_name": "ReadFile",
+  "permission": "auto",
+  "system_prompt_addition": "",
+  "trigger_keywords": [],
+  "parameters": {"max_chars": 20000}
+}

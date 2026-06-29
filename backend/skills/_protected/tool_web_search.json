@@ -1,0 +1,14 @@
+{
+  "id": "tool_web_search",
+  "name": "WebSearch",
+  "description": "Search the web via DuckDuckGo HTML. Returns titles, URLs and snippets.",
+  "protected": true,
+  "builtin": true,
+  "is_meta": false,
+  "is_tool": true,
+  "tool_name": "WebSearch",
+  "permission": "approve",
+  "system_prompt_addition": "",
+  "trigger_keywords": [],
+  "parameters": {"max_results": 5}
+}
